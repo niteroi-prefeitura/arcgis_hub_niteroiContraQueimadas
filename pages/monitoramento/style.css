@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --blue: #353349;
+  --orange: #f27e2e;
+  --brown: #82502b;
+  --blue-ligth: #686f79;
+  --orange-ligth: #e5792e;
+  --red-dark: #a30b00;
+  --yellow-dark: #ffad03;
+  --orange-dark: #ff6d17;
+  --brown-ligth: #b2815e;
+  --beige: #eae5d2;
+  --gray: #d8d8d8;
+  --white: #faf9f6;
+  --dark: #313131;
+  --dark-200: #212529;
+}
+
+* {
+  line-height: 1.5;
+}
+
+header.mobile__cabecalho {
+  display: none;
+}
+
+nav.container-fluid,
+header.global-navbar {
+  display: none;
+}
+
+div.cabecalho__logo img {
+  height: 70px;
+}
+
+header.cabecalho {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  max-width: 1500px;
+}
+
+header.cabecalho nav {
+  display: flex;
+  gap: 20px;
+}
+
+header.cabecalho nav#menu a#pagina-inicial,
+header.cabecalho nav#menu a#legislacao,
+header.cabecalho nav#menu a#acoes-preventivas,
+header.cabecalho nav#menu a#monitoramento {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  outline: none;
+}
+
+header.cabecalho nav#menu a#pagina-inicial.atual,
+header.cabecalho nav#menu a#legislacao.atual,
+header.cabecalho nav#menu a#acoes-preventivas.atual,
+header.cabecalho nav#menu a#monitoramento.atual,
+header.cabecalho nav#menu a#pagina-inicial:hover,
+header.cabecalho nav#menu a#legislacao:hover,
+header.cabecalho nav#menu a#acoes-preventivas:hover,
+header.cabecalho nav#menu a#monitoramento:hover {
+  color: var(--orange-dark);
+  cursor: pointer;
+}
+
+header.cabecalho nav {
+  list-style: none;
+}
+
+.defense__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.defense__container h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.live__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.live__container h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.risco__container h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.weather__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.weather__container h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.station__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.station__container h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.arrow__container {
+  display: flex;
+  justify-content: end;
+}
+
+a.arrow_return {
+  margin: 0 50px;
+  width: fit-content;
+}
+
+a.arrow_return:hover {
+  cursor: pointer;
+}
+
+a.arrow_return img {
+  height: 32px;
+  border-radius: 50%;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+.footer-queimada {
+  display: flex;
+  padding: 30px;
+  padding-left: 0;
+  color: var(--dark);
+  font-size: 14px;
+  height: 250px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-queimada .footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline-start: 0;
+}
+
+.footer-queimada a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: medium;
+}
+
+.footer-queimada h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.footer-queimada ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline-start: 0;
+}
+
+.footer-queimada li {
+  list-style: none;
+}
+
+.footer-queimada div.logo__container,
+div.contact__container {
+  padding: 0 50px;
+}
+
+.footer-queimada .logo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--dark);
+}
+
+.footer-queimada .logo__row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-queimada .logo_row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-queimada img {
+  height: 80px;
+}
+
+.footer-queimada .contact__container {
+  border-right: 1px solid var(--dark);
+}
+
+.footer-queimada .app__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+
+.footer-queimada .app__badge {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.footer-queimada .app__apple {
+  height: 65px;
+}
+
+.footer-queimada .app__apple:hover,
+.footer-queimada .app__google:hover {
+  cursor: pointer;
+}
+
+.footer-queimada span.creditos {
+  font-size: 12px;
+  align-self: end;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(221, 90, 20, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(221, 90, 20, 0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.cabecalho {
+    display: none;
+  }
+
+  header.mobile__cabecalho {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--blue);
+  }
+
+  div.mobile__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+  }
+
+  header.mobile__cabecalho img {
+    height: 24px;
+  }
+
+  header.mobile__cabecalho button {
+    background-color: transparent;
+    border: none;
+  }
+
+  button.navbar-toggler:focus {
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+  }
+
+  button img:nth-child(1) {
+    display: none;
+  }
+
+  button img:nth-child(2) {
+    display: block;
+  }
+
+  button.collapsed img:nth-child(1) {
+    display: block;
+  }
+
+  button.collapsed img:nth-child(2) {
+    display: none;
+  }
+
+  header.mobile__cabecalho input.close {
+    display: none;
+  }
+
+  header.mobile__cabecalho span.close {
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  header.mobile__cabecalho nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header.mobile__cabecalho nav#menu a#pagina-inicial,
+  header.mobile__cabecalho nav#menu a#legislacao,
+  header.mobile__cabecalho nav#menu a#acoes-preventivas,
+  header.mobile__cabecalho nav#menu a#monitoramento {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  header.mobile__cabecalho nav#menu a#pagina-inicial.atual,
+  header.mobile__cabecalho nav#menu a#legislacao.atual,
+  header.mobile__cabecalho nav#menu a#acoes-preventivas.atual,
+  header.mobile__cabecalho nav#menu a#monitoramento.atual,
+  header.mobile__cabecalho nav#menu a#pagina-inicial:hover,
+  header.mobile__cabecalho nav#menu a#legislacao:hover,
+  header.mobile__cabecalho nav#menu a#acoes-preventivas:hover,
+  header.mobile__cabecalho nav#menu a#monitoramento:hover {
+    color: var(--orange-dark);
+    cursor: pointer;
+  }
+
+  header.mobile__cabecalho nav {
+    list-style: none;
+  }
+
+}

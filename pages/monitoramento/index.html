@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Monitoramento</title>
+</head>
+
+<body>
+  <header id="header" class="cabecalho">
+    <div class="cabecalho__logo">
+      <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/Logo_Pref_Branca.png" />
+    </div>
+    <nav id="menu">
+      <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br" id="pagina-inicial">Página Inicial</a></li>
+      <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/monitoramento" id="monitoramento"
+          class="atual">Monitoramento</a></li>
+      <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/legislacao" id="legislacao">Legislação</a>
+      </li>
+      <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/acoes" id="acoes-preventivas">Ações
+          Preventivas</a></li>
+    </nav>
+  </header>
+  <header class="mobile__cabecalho" id="header">
+    <div class="mobile__menu">
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-label="Toggle navigation">
+          <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/menu-hamburger.svg">
+          <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/menu-close.svg">
+        </button>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <nav id="menu">
+          <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br" id="pagina-inicial">Página Inicial</a></li>
+          <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/monitoramento" id="monitoramento"
+              class="atual">Monitoramento</a></li>
+          <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/legislacao" id="legislacao">Legislação</a>
+          </li>
+          <li><a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/pages/acoes" id="acoes-preventivas">Ações
+              Preventivas</a></li>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="defense__container">
+    <h2>Defesa Civil</h2>
+    <p>
+      Os dados que podem ser visualizados no painel de monitoramento, foram obtidos e georreferenciados através de
+      ocorrências de incêndio mapeadas pela Defesa Civil a partir de um convênio com o Corpo de Bombeiros que fornece
+      esses dados junto ao apoio da população niteroiense na utilização do aplicativo Alerta DCNIT. O aplicativo
+      apresenta funcionalidades de alertas sobre previsão de chuvas fortes, ressaca, ventos e condições do tempo para
+      risco de incêndio em vegetação. E possui uma opção que direciona o aparelho automaticamente para uma ligação com a
+      Defesa Civil gratuitamente através do 199.
+    </p>
+    <p>
+      Desta forma, a Defesa Civil se aproxima cada vez mais do cidadão, possibilitando o aumento de uma cultura
+      preventiva e o consequente aumento do poder de resiliência municipal.
+    </p>
+  </section>
+  <section class="live__container">
+    <h2>Dados Lance (NASA)</h2>
+    <p>
+      Os dados que podem ser visualizados no painel de monitoramento, foram obtidos através de satélites da NASA NOAA-20
+      e NOAA-21, no qual tem acoplado um dispositivo denominado VIIRS (Visible Infrared Imaging Radiometer Suite) que
+      realiza a coleta de imagens e medições radiométricas da Terra, atmosfera e oceanos nas bandas do visível e
+      infravermelho.
+    </p>
+  </section>
+  <section class="live__container">
+    <h3>Metodologia</h3>
+    <p>
+      A fonte dos dados é proveniente do sistema LANCE (Land, Atmosphere Near real-time Capability for EOS), responsável
+      pelos dados e imagens da NASA, possibilitando a realização do download dessas informações praticamente em tempo
+      real. No ArcGIS Online, foi criada uma
+      camada de feição de pontos hospedada, VIIRS Thermal Hotspots and Fire Activity, que extrai um subconjunto de dados
+      obtidos de imagens relacionadas à detecção de incêndios ativos. Os pontos de calor ficam disponíveis no sistema
+      LANCE em até 3 horas após a
+      detecção pelo dispositivo, e os dados extraídos automaticamente, são atualizados na camada a cada 15 minutos.
+    </p>
+  </section>
+  <section class="risco__container">
+    <h2>Monitoramento de Risco de Incêndios e Indicadores do Tempo</h2>
+    <p>
+      Este mapa apresenta o estágio de risco de queimadas para todo o município, com base em uma série de indicadores
+      ambientais atualizados pela Secretaria Municipal de Defesa Civil e Geotecnia de Niterói.
+    </p>
+  </section>
+  <section class="live__container">
+    <h2>Monitoramento da qualidade do ar</h2>
+    <p>Também utilizando a plataforma windy, é possível acompanhar em uma linha do tempo os níveis de poluentes
+      atmosféricos, nesse caso o PM2.5, que são partículas finas suspensas no ar com diâmetro inferior a 2,5 micrômetros
+      (2,5 µm - aproximadamente 30 vezes menor que o diâmetro de um fio de cabelo). Por se tratarem de partículas muito
+      pequenas elas conseguem atingir profundamente o sistema respiratório, chegando aos nossos pulmões, agravando
+      quadros de doenças respiratórias.</p>
+    <p> As principais fontes de PM2.5 incluem a queima de combustíveis fósseis, <b>queimadas</b>, atividades agrícolas e
+      até processos naturais, como poeira e erupções vulcânicas. Processos estes que afetam a visibilidade e contribuem
+      para a formação de névoa, reportados nas áreas urbanas. Com base em dados meteorológicos e sensores de qualidade
+      do ar, o mapa a seguir oferece uma visão geral do efeito dessa poluição.</p>
+  </section>
+  <section class="weather__container">
+    <h2>Dados meteorológicos</h2>
+    <p>Na aplicação, é possível visualizar no mapa o radar meteorológico que indica, dentro do raio de cobertura, a
+      intensidade da precipitação de chuvas, principalmente na Região Metropolitana do Rio de Janeiro. Esse indicador é
+      medido em dBz, com uma legenda na parte inferior do mapa, e, quanto maior o valor de dBz, mais intensa é a
+      precipitação.</p>
+  </section>
+  <section class="station__container">
+    <h2>Implementação de Estações</h2>
+    <p>A Defesa Civil de Niterói está implementando três novas estações de monitoramento da qualidade do ar.
+      Futuramente, essas estações serão integradas ao sistema de informações já disponível neste HUB, permitindo que a
+      população visualize, em tempo real, os dados de diferentes regiões da cidade. Atualmente, essas informações são
+      fornecidas de forma única para todo o município. Com essa melhoria, será possível acompanhar a qualidade do ar de
+      maneira mais detalhada, contribuindo para ações preventivas e para uma cidade mais saudável.</p>
+  </section>
+  <div class="arrow__container">
+    <a class="arrow_return" href="#header" style="outline: none;">
+      <img class="pulse" src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/circle-up-solid.svg">
+    </a>
+  </div>
+  <footer class="footer-queimada">
+    <div class="logo__container">
+      <div class="logo__row1">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AM-JKLVU8zo2zniYVkqsDnXQMX_d4vklkvnmhfsuBBB1uzJxx_14STpZZv6tNQOqWL1p__jpvXYASUglAi8f0827Btu7ojnwn3-ddqy2ny-j8hr_YMBRllXBHbnTgpVkwlkCCV6-NqP6mGbC5V7W58zHaFV6=w81-h100-no?authuser=2">
+        <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/defesa_civil.jpg">
+      </div>
+      <div class="logo__row2">
+        <img class="logo-sigeo" src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/LOGO/Logo_Original.png">
+      </div>
+    </div>
+
+    <div class="contact__container">
+      <h3>Contato</h3>
+      <ul>
+        <li>
+          <a href="https://niteroi.rj.gov.br/">Prefeitura Municipal de Niterói</a>
+        </li>
+        <li>
+          <a href="https://www.sigeo.niteroi.rj.gov.br/">Sigeo</a>
+        </li>
+        <li>
+          <a href="">Defesa Civil Niterói</a>
+        </li>
+        <li>
+          <span class="creditos">© 2024 Prefeitura Municipal de Niterói</span>
+        </li>
+      </ul>
+    </div>
+    <div class="app__container">
+      <span class="app__text">Baixe o aplicativo da Defesa Civil:</span>
+      <div class="app__badge">
+        <a href="https://play.google.com/store/apps/details?id=bugarin.t.comandonit" target="_blank"><img
+            class="app__google"
+            src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/googleplay.png"></a>
+        <a href="https://apps.apple.com/id/app/alertadcnit/id1499587029" target="_blank"><img class="app__apple"
+            src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/incendio/applestore.png"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
