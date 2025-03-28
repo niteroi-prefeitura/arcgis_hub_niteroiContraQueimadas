@@ -28,7 +28,13 @@
       <a href="#content--conteudo">Components | Componentes</a>
       <ul>
         <li><a href="#imgs">imgs</a></li>
-        <li><a href="#paginas">paginas</a></li>
+        <li><a href="#pages">pages</a>
+          <ul>
+            <li><a href="#acoes_preventivas">acoes_preventivas</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#monitoramento">monitoramento</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#usage--uso">Usage | Uso</a></li>
@@ -41,16 +47,16 @@
 <h2 id="about-the-repository--sobre-o-repositório">About The Repository | Sobre O Repositório</h2>
 
 <p>
-  Welcome! This is a repository created by the Data Office of the City of Niterói to organize and share the code written for the Niterói Against Burnings HUB
+  Welcome! This repository was created by the Data Office of the City of Niterói to organize and share the code developed for the Niterói Against Burnings HUB
   <br>
-  Here you can find the <code>HTML</code> and <code>CSS</code> code used to create the page layout, as well as <code>Python</code> scripts used for fire monitoring in the city of Niterói.
+  Here you can find the <code>HTML</code> and <code>CSS</code> code used to create the page layouts.
 </p>
 
 <p>🔗 Feel free to visit the HUB through the link: <a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/" target='_blank'>niteroicontraqueimadas.niteroi.rj.gov.br</a></p>
 
 <p>Bem vindo(a)! Esse é um repositório criado pelo Escritório de Dados da prefeitura de Niterói para organizar e compartilhar o código escrito para o HUB de Niterói Contra Queimadas.
 <br>
-Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utilizados para a criação do layout da página, como também os scripts em <code>Python</code> utilizados para monitoramento de incêndios na cidade de Niterói.</p>
+Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utilizados para a criação do layout da páginas.</p>
 
 <p>🔗 Sinta-se à vontade para visitar o HUB através do link: <a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/" target='_blank'>niteroicontraqueimadas.niteroi.rj.gov.br</a></p>
 
@@ -58,7 +64,7 @@ Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utili
 
 <h2 id="built-with--desenvolvido-com">Built With | Desenvolvido Com</h2>
 
-[![HTML]][html-url] [![CSS]][css-url] [![Python]][Python-url] [![Arcgis-hub]][arcgis-hub-url] ![env] ![Arcgis]
+[![HTML]][html-url] [![CSS]][css-url] [![Arcgis-hub]][arcgis-hub-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,11 +76,45 @@ Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utili
   <p style='margin-left:20px'>Folder that contains the README image.</p>
   <p style='margin-left:20px'>Pasta que envolve a imagem do README.</p>
 </details>
-<details id="paginas">
-  <summary>📁 paginas</summary>
-  <p style='margin-left:20px'></p>
-  <p style='margin-left:20px'></p>
+
+<details id="pages">
+  <summary>📁 pages</summary>
+  <details>
+    <summary>📁 acoes_preventivas</summary>
+    <p style='margin-left:20px'>
+      In this folder, you will find the <code>HTML</code> and <code>CSS</code> files for the preventive actions page, which includes a desktop and mobile header, a section about the Civil Defense's preventive actions against wildfires divided into collapsed topics, a section inviting voluntary registration to the Civil Defense Core, a section with information about fire risk levels, an arrow for quick return to the top of the page, and a footer
+    </p>
+    <p style='margin-left:20px'>
+      Nesta pasta você encontra os arquivos <code>HTML</code> e <code>CSS</code> da página de ações preventivas, que contém um cabeçalho desktop e um mobile, uma seção sobre as açoes preventivas da defesa civil contra queimadas dividida em tópicos colapsados, uma seção de convite para inscrição voluntária ao Núcleo de Defesa Civil, uma seção com informações sobre os níveis para risco de fogo, uma seta para retorno rápido ao topo da página e um rodapé.
+    </p>
+  </details>
+  <details>
+    <summary>📁 home</summary>
+    <p style='margin-left:20px'>
+      In this folder, you will find the <code>HTML</code> and <code>CSS</code> files for the main page of the HUB, which includes a header, a container for navigation between pages, a welcome section with information about the HUB, sections designed to show the monitoring of heat spots in Niterói and neighboring cities (with maps embedded by ArcGIS Hub), a section with photos of occurrences, an arrow for quick return to the top of the page, and a footer.
+    </p>
+    <p style='margin-left:20px'>
+      Nesta pasta você encontra os arquivos <code>HTML</code> e <code>CSS</code> da página principal do HUB, nela temos um cabeçalho, um container para navegação entre as páginas, uma seção de boas-vindas com informações sobre o HUB, seções feitas para mostrar o monitoramento dos focos de calor de Niterói e das cidades vizinhas (com mapas incorporados pelo ArcGis Hub), uma seção com fotos de ocorrêcias, uma seta para retorno rápido ao topo da página e um rodapé.
+    </p>
+  </details>
+  <details>
+    <summary>📁 monitoramento</summary>
+    <p style='margin-left:20px'>
+      In this folder, you will find the <code>HTML</code> and <code>CSS</code> files for the monitoring page, which includes a desktop and mobile header, a section with information from occurrences recorded by the Civil Defense (data and maps are inserted through ArcGIS Hub), a section with data received from NASA (inserted through ArcGIS), a section explaining the methodology used for data detection and visualization, a section presenting a map of the wildfire risk level for the entire municipality (inserted through ArcGIS), a section presenting a map of air quality monitoring (inserted through ArcGIS), a section presenting a map of rainfall intensity (inserted through ArcGIS), a section presenting a map of new air quality monitoring stations being implemented by the Civil Defense (inserted through ArcGIS), an arrow for quick return to the top of the page, and a footer.
+    </p>
+    <p style='margin-left:20px'>
+      Nesta pasta você encontra os arquivos <code>HTML</code> e <code>CSS</code> da página de monitoramentos, nela temos um cabeçalho desktop e um mobile, uma seção com as informações obtidas pelas ocorrências registradas pela Defesa Civil (dados e mapas são inseridos através do ArcGis Hub), uma seção com dados recebidos pela NASA (inseridos via ArcGis), uma seção que explica a metodologia utilizada para detecção e visualização dos dados, uma seção que apresenta um mapa com o estágio de risco de queimadas para todo o município (inserido via ArcGis), uma seção que apresenta um mapa com comitoramento do ar (inserido via ArcGis), uma seção que apresenta um mapa a intensidade da precipitação de chuvas (inserido via ArcGis), uma seção que apresenta um mapa com as novas estações de monitoramento da qualidade do ar que estão sendo implementadas pela Defesa Civil (inserido via ArcGis), uma seta para retorno rápido ao topo da página e um rodapé.
+    </p>
+  </details>
 </details>
+
+<br>
+
+<p>❗ Note: The codes stored here do not include the insertion of the maps; this procedure is done directly through the ArcGIS Hub tool. For better visualization of the page, visit the HUB at:<a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/" target='_blank'> niteroicontraqueimadas.niteroi.rj.gov.br</a></p>
+
+<p>❗ OBS.: Os códigos aqui armazenados não incluem a inserção dos mapas, esse procedimento é feito diretamente pela ferramenta de HUB do ArcGis, para melhor visualização da página, visite o HUB em: <a href="https://niteroicontraqueimadas.niteroi.rj.gov.br/" target='_blank'> niteroicontraqueimadas.niteroi.rj.gov.br</a></p>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,8 +128,8 @@ Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utili
   <div>
     <p>1️⃣ Copy the code available in this repository</p>
     <ul>
-      <li>Access the "pagina" folder;</li>
-      <li>Copy the <code>HTML</code> and <code>CSS</code> code of the desired content (navBarr, bannerSection, aboutSection, programmingSection, subscribeSection, knowHubSection or footerContainer). - <code>HTML</code> in the index file and <code>CSS</code> in the style file.</li>
+      <li>Access the "pages" folder and then the folder of the desired page;</li>
+      <li>Copy the <code>HTML</code> and <code>CSS</code> code of the desired content - <code>HTML</code> in the index file and <code>CSS</code> in the style file.</li>
     </ul>
     <p>2️⃣ Paste the code into ArcGIS Hub</p>
     <ul>
@@ -107,8 +147,8 @@ Aqui você pode encontrar os códigos <code>HTML</code> e <code>CSS</code> utili
   <div>
     <p>1️⃣ Copie o código disponível neste repositório</p>
     <ul>
-      <li>Acesse a pasta "pagina";</li>
-      <li>Copie o código <code>HTML</code> e <code>CSS</code> do conteúdo desejeado (navBarr, bannerSection, aboutSection, programmingSection, subscribeSection, knowHubSection ou footerContainer). - <code>HTML</code> no arquivo index e <code>CSS</code> no arquivo style.</li>
+      <li>Acesse a pasta "pages" e depois a pasta da página desejada;</li>
+      <li>Copie o código <code>HTML</code> e <code>CSS</code> do conteúdo desejeado - <code>HTML</code> no arquivo index e <code>CSS</code> no arquivo style.</li>
     </ul>
     <p>2️⃣ Cole os códigos no ArcGIS Hub</p>
     <ul>
