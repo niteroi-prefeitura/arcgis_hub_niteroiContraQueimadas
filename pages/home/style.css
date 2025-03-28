@@ -108,13 +108,13 @@ header.header__container .header__text-orange {
   color: var(--orange);
 }
 
-.icons__container {
+.nav__container {
   display: flex;
   justify-content: space-around;
   padding: 100px 0px;
 }
 
-.icons__container .icons__image {
+.nav__container .icons__image {
   width: 200px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -124,12 +124,13 @@ header.header__container .header__text-orange {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.icons__container .icons__image:hover {
+.nav__container .icons__image:hover {
   filter: brightness(1.1);
   cursor: pointer;
 }
 
 section.welcome__container {
+  font-family: "Poppins";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,6 +260,7 @@ a.arrow_return img {
 }
 
 .footer-queimada {
+  font-family: "Poppins";
   display: flex;
   padding: 30px;
   padding-left: 0;
@@ -399,7 +401,7 @@ div.contact__container {
     display: block;
   }
 
-  .icons__container {
+  .nav__container {
     justify-content: space-between;
     padding: 50px 0;
     gap: 20px;
