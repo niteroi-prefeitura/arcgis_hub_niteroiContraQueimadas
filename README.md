@@ -188,8 +188,8 @@ Sistema de Gestão de Geoinformação - [Portal SIGeo](https://www.sigeo.niteroi
 <h2 id="contributors--contribuidores">Contributors | Contribuidores</h2>
 
 
-<a href="https://github.com/SIGeo-Niteroi/arcgis_hub_frontNiteroiContraQueimadas/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SSIGeo-Niteroi/arcgis_hub_frontNiteroiContraQueimadas" />
+<a href="https://github.com/niteroi-prefeitura/arcgis_hub_NiteroiContraQueimadas/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=niteroi-prefeitura/arcgis_hub_NiteroiContraQueimadas" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -199,10 +199,8 @@ Made with [contrib.rocks](https://contrib.rocks).
 [HTML]: https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [Arcgis]: https://img.shields.io/badge/ArcGIS-2C7AC3.svg?style=for-the-badge&logo=ArcGIS&logoColor=white
 [Arcgis-hub]: https://img.shields.io/badge/ArcGIS-hub-2C7AC3.svg?style=for-the-badge&logo=ArcGIS&logoColor=white
-[Python]: https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
 [env]: https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black
 [CSS]: https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [arcgis-hub-url]: https://hub.arcgis.com/
-[Python-url]: https://www.python.org/
