@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --purple-highest: #861E74;
+  --purple-highest-letter: #e790d9;
+  --red-high: #DE2829;
+  --red-high-letter: #701313;
+  --yellow-medium: #F1E60D;
+  --yellow-medium-letter: #918a08;
+  --green-low: #64B32E;
+  --green-low-letter: #1e360e;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.estagio__container h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.estagio__container h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.estagio__container {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 85%;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.estagio__container.higherAlert {
+  background-color: var(--purple-highest);
+  color: var(--purple-highest-letter);
+}
+
+.estagio__container.highAlert {
+  background-color: var(--red-high);
+  color: var(--red-high-letter);
+}
+
+.estagio__container.mediumAlert {
+  background-color: var(--yellow-medium);
+  color: var(--yellow-medium-letter);
+}
+
+.estagio__container.lowAlert {
+  background-color: var(--green-low);
+  color: var(--green-low-letter);
+}
+
+@media only screen and (max-width: 600px) {
+  .estagio__container {
+    margin: 20px auto;
+  }
+}
